@@ -9,13 +9,13 @@ public class Distance
 		int u,a,t,Distance;
 		System.out.println("Enter the value of Initial Velocity:");
 		Scanner sc1 = new Scanner(System.in);
-		u= sc1.nextInt();
+		u=1;
 		System.out.println("Enter the value of acceleartion:");
 		Scanner sc2 = new Scanner(System.in);
-		a= sc2.nextInt();
+		a=3;
 		System.out.println("Enter the value of time:");
 		Scanner sc3 = new Scanner(System.in);
-		t= sc2.nextInt();
+		t=5;
 		Distance=u*t+(a*t*t)/2;
 		System.out.println("---------------------------------------------------------");
 		System.out.println("Distance Travelled     ="+Distance + " Meter");
